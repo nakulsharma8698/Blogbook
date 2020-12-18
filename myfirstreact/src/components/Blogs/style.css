@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;600;700&display=swap");
+
+.post
+{
+    background-color:#f2f2f2;
+    padding-top: 20px;
+}
+.singlepost
+{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+.singlepostt
+{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	overflow: hidden;
+}
+.logout
+{
+  background-color: dodgerblue; /* Green */
+  border: none;
+  margin: auto;
+  margin-left: 10px;
+  color: white;
+  padding: 15px 32px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.postimg
+{
+  display: block;
+  max-width:70%;
+  max-height:70%;
+  margin: auto;
+}
+.info
+{
+  
+}
+.dp{
+  padding-left: 20px;
+  margin: auto;
+  background-color: dodgerblue;;
+	color: #fff;
+	padding: 20px;
+	max-width: 250px;
+}
+.heading
+{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  
+}
+.myposts
+{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+  
+}
+hr
+{
+  border-top: 1px solid gray;
+}
+.name
+{
+ 
+  letter-spacing: 1px;
+	margin: 10px 0;
+}
+.btnn {
+	background-color:dodgerblue;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	bottom: 30px;
+	right: 30px;
+  letter-spacing: 1px;
+  vertical-align: bottom;
+}
+.userid
+{
+
+  opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+}
+.postimgg
+{
+  display: block;
+  max-width:200px;
+  max-height:200px;
+  margin: auto;
+  border-radius: 50%;
+}
+.postimggg
+{
+  display: block;
+  max-width:50px;
+  max-height:50px;
+  margin: auto;
+  border-radius: 50%;
+}
+.blogs
+{
+    margin-left: 337px;
+    background: dodgerblue;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.read
+{
+    white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li.active
+{
+  background-color: dodgerblue;
+}
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li:hover, .dropdown:hover .dropbtn {
+  background-color:dodgerblue;
+}
+input[type=file]:focus {
+  color: dodgerblue;
+  outline: none;
+}

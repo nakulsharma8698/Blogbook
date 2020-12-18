@@ -1,0 +1,80 @@
+.post
+{
+    background-color:#f2f2f2;
+    padding-top: 20px;
+}
+.singlepost
+{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+.logout
+{
+  background-color: dodgerblue; /* Green */
+  border: none;
+  margin: auto;
+  margin-left: 10px;
+  color: white;
+  padding: 15px 32px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.postimg
+{
+  display: block;
+  max-width:500px;
+  max-height:500px;
+  margin: auto;
+}
+.blogs
+{
+    margin-left: 337px;
+    background: dodgerblue;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.read
+{
+    white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+li.active
+{
+  background-color: dodgerblue;
+}
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li:hover, .dropdown:hover .dropbtn {
+  background-color:dodgerblue;
+}
+input[type=file]:focus {
+  color: dodgerblue;
+  outline: none;
+}
